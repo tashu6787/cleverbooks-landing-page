@@ -1,0 +1,372 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header.hero-section {
+    background: url('images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff9800;
+}
+
+.hero-content {
+    margin-top: 50px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    animation: slideInDown 1s ease-in-out;
+}
+
+.hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hero-cta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.hero-cta:hover {
+    background-color: #e68900;
+}
+
+.features-section {
+    padding: 60px 20px;
+    text-align: center;
+    background: url('images/features-bg.jpg') no-repeat center center/cover;
+}
+
+.features-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.feature {
+    display: inline-block;
+    width: 45%;
+    max-width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.features-section p {
+    font-size: 16px;
+}
+
+.integrations-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.integrations-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.integration {
+    display: inline-block;
+    width: 45%;
+    max-width: 200px;
+    margin: 20px;
+}
+
+.integration img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cta-section {
+    background-color: #ff9800;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background: url('images/cta-bg.jpg') no-repeat center center/cover;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: white;
+    color: #ff9800;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #e68900;
+    color: white;
+}
+
+.testimonials-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-style: italic;
+}
+
+.testimonial h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    color: #ff9800;
+}
+
+.pricing-section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f7f7f7;
+}
+
+.pricing-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pricing-card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+}
+
+.pricing-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.pricing-card .price {
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-card ul li {
+    margin-bottom: 10px;
+}
+
+.pricing-cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+
+.pricing-cta:hover {
+    background-color: #e68900;
+}
+
+.faq-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.faq-item {
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-align: left;
+}
+
+.faq-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.footer-section {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a img {
+    width: 30px;
+    height: 30px;
+    transition: opacity 0.3s;
+}
+
+.social-links a:hover img {
+    opacity: 0.7;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInDown {
+    from { transform: translateY(-100px); }
+    to { transform: translateY(0); }
+}
+.nav-links a.active {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.nav-links a {
+    position: relative;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ff9800;
+    left: 50%;
+    bottom: -5px;
+    transition: width 0.3s, left 0.3s;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+    left: 0;
+}
+
